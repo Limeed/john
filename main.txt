@@ -1,19 +1,1 @@
-wait()
 
-local players = game:GetService("Players")
-local player = players.LocalPlayer
-
-local ScreenGui = Instance.new('ScreenGui')
-local MainFrame = Instance.new('Frame')
-local TextLabel = Instance.new('TextLabel)
-
-
-
-ScreenGui.Parent = game.CoreGui
-
-
-MainFrame.Parent = ScreenGui
-
-TextLabel.Text = 'Joseph'
-TextLabel.position = UDim2.new(-0.00431700842, 0, 0.643317342, 0)
-TextLabel.parent = MainFrame
